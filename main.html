@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BaseConverter</title>
+    <link rel="stylesheet" type="text/css" href="D:\PYU_4yrs_courses\PYU4thYear\4Y2S_PYUIT\MobileApplication\Angular\style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="D:\PYU_4yrs_courses\PYU4thYear\4Y2S_PYUIT\MobileApplication\Angular\app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+	<style>
+	::-webkit-input-placeholder { /* Edge */
+	  margin-left: 10px;
+	  color: #C0C0C0;
+	}
+
+	:-ms-input-placeholder { /* Internet Explorer */
+	  margin-left: 10px;
+	  color: #C0C0C0;
+	}
+
+	::placeholder {
+	  margin-left: 10px;
+	  color: #C0C0C0;
+	}
+	</style>
+</head>
+
+<body ng-app="myApp" ng-controller="myController">
+
+   <div class="container">
+        <h1 style="color:blue;">Base Converter</h1>
+        <p>Input positve integer Number</p>
+        <th> <input type="number" placeholder="0" ng-model="integer"> </th>
+        <br><br><br>
+        <table id="number">
+
+            <tr>
+                <th>Binary</th>
+                <th>Octal</th>
+				<th>Decimal</th>
+                <th>Hexa</th>
+            </tr>
+            <tr>
+                <th><input type="text" placeholder="0" ng-model="binary"></th>
+				<th><input type="text" placeholder="0" ng-model="octal"></th>
+				<th><input type="text" placeholder="0" ng-model="decimal"></th>
+                <th><input type="text" placeholder="0" ng-model="hexa"></th>
+
+
+            </tr>
+        </table>
+    </div>
+
+
+
+</body>
+
+</html>

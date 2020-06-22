@@ -1,0 +1,54 @@
+*  {  
+    box-sizing: border-box;
+}
+
+.container {
+    display: block;
+    background: #FF69B4;
+    margin-top: 20px;  
+	margin-left: 20px; 	
+	margin-right: 20px; 
+	margin-bottom: 20px; 
+    padding: 10px 40px;
+    text-align: center;
+    position: relative;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+#number {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	margin-bottom: 20px; 
+  }
+
+  #number td, #number th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  #number tr:nth-child(even){background-color: #f2f2f2;}
+
+  #number tr:hover {background-color: #ddd;}
+
+  #number th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #00BFFF;
+    color: white;
+  }
+  h1{
+      font-size: 40px;
+      font-weight: 200;
+
+  }
+  input{
+      width: 100%;
+      display: inline-block;
+      font-weight: 100;
+      font-size: 20px;
+      margin: 5px 0;
+      color: #3f3f3f;
+  }
